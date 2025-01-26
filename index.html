@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="carousel" data-carousel>
+				<button class="carousel-button prev" data-carousel-button="prev">
+					&#8656;
+				</button>
+				<button class="carousel-button next" data-carousel-button="next">
+					&#8658;
+				</button>
+				<section aria-label="Newest photo">
+					<ul data-slides>
+						<li class="slide" data-active>
+							<img src="./nature.png" alt="nature" />
+						</li>
+						<li class="slide">
+							<img src="./mountain.png" alt="mountain" />
+						</li>
+						<li class="slide">
+							<img src="./bird.png" alt="bird" />
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
